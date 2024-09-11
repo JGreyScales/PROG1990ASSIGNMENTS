@@ -5,9 +5,9 @@
 
 #include <stdio.h>
 
-#define INVALID_ASSIGNMENT	1
-#define INVALID_DOMAIN		2
-#define DAYS_IN_YEAR		365
+#define INVALID_ASSIGNMENT_ERROR	1
+#define INVALID_DOMAIN				2
+#define DAYS_IN_YEAR				365
 
 int main(void) {
 	// intro
@@ -18,10 +18,11 @@ int main(void) {
 	int assignedItems = scanf("%i", &ageInYears);
 	if (1 != assignedItems) {
 		printf("Invalid assignment, ensure that type is of int");
-		return INVALID_ASSIGNMENT;
+		return INVALID_ASSIGNMENT_ERROR;
 	}
 	if (0 >= ageInYears) {
-		printf("Invalid domain, please ensure that age in years is greater then or equal to 0");
+		printf("Invalid domain, please ensure that age in years is greater ");
+		printf("then or equal to 0");
 		return INVALID_DOMAIN;
 	}
 

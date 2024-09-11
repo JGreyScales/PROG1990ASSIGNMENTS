@@ -6,7 +6,7 @@
 // Jackson G - prog71990 - assignment 1 - question 3 - 2024-09-11
 #include <stdio.h>
 
-#define INVALID_ASSIGNMENT	1
+#define INVALID_ASSIGNMENT_ERROR	1
 
 int main(void) {
 	float Number1;
@@ -18,14 +18,14 @@ int main(void) {
 	// input 
 	if (1 != scanf("%f", &Number1)) {
 		printf("Invalid input, please ensure that input is a valid float type");
-		return INVALID_ASSIGNMENT;
+		return INVALID_ASSIGNMENT_ERROR;
 	}
 
 	printf("please input the second number:");
 
 	if (1 != scanf("%f", &Number2)) {
 		printf("Invalid input, please ensure that input is a valid float type");
-		return INVALID_ASSIGNMENT;
+		return INVALID_ASSIGNMENT_ERROR;
 	}
 
 	//transform + output
