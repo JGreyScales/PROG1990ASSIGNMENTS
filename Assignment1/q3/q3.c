@@ -1,8 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 // make program to take 2 floats
 // print sum, product, quotient
-
-
+//
 // Jackson G - prog71990 - assignment 1 - question 3 - 2024-09-11
 #include <stdio.h>
 
