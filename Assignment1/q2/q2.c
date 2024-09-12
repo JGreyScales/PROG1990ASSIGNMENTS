@@ -13,8 +13,10 @@ int main(void) {
 	// intro
 	int ageInYears;
 
+	// Introduce the program
 	printf("Please input your age in years:");
 
+	// Take user input 
 	int assignedItems = scanf("%i", &ageInYears);
 	if (1 != assignedItems) {
 		printf("Invalid assignment, ensure that type is of int");
@@ -33,7 +35,8 @@ int main(void) {
 
 
 	//output
-	printf("Your age in days is:%i\nYour age in years is:%i", ageInDays, ageInYears);
+	printf("Your age in days is:%i\n", ageInDays);
+	printf("Your age in years is : % i", ageInYears);
 
 	return 0;
 }

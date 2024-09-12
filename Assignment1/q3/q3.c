@@ -13,6 +13,8 @@ int main(void) {
 	float Number2;
 
 	// intro
+	// Introduce the program
+
 	printf("please input first number:");
 
 	// input 
@@ -33,7 +35,9 @@ int main(void) {
 	printf("The product is: %f\n", Number1 * Number2);
 
 	// conditionals placed here to keep code flow constant & easy to follow.
-	if (0 == Number2) { printf("The quotient is: INVALID, DIVISION BY ZERO ERROR");}
+	if (0 == Number2) { 
+		printf("The quotient is: INVALID, DIVISION BY ZERO ERROR");
+	}
 	else { printf("The quotient is: %f", Number1 / Number2); }
 
 
