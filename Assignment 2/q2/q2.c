@@ -1,4 +1,4 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 
 //Write a program that prints a table (using ASCII (printable) characters - for
 //example : ‘ | ’ and ‘ - ’ ) with each line giving an integer, its cube(a* a* a), its
@@ -30,14 +30,11 @@ static double calculate_squareroot(int a) {
 }
 
 
-static int print_table(int xInput) {
-	
+static void print_table(int xInput) {
 	for (int x = 1; x <= xInput; x++) {
 		printf("\n--------------------\n");
 		printf("|%d|%d|%lf|", calculate_cube(x), calculate_square(x), calculate_squareroot(x));
 	}
-
-	return 0;
 }
 
 int main(void) {
