@@ -12,6 +12,7 @@
 // Jackson G - prog71990 - assignment 2 - question 2 - 2024-09-22
 
 #include <stdio.h>
+#include <math.h>
 
 #define INVALID_ASSIGNMENT  1
 #define OUT_OF_DOMAIN_ERROR 2
@@ -24,42 +25,16 @@ static int calculate_square(int a) {
 	return a * a;
 }
 
-static float calculate_squareroot(int a) {
-	// unsure if we are allowed to use math.h
-	// if we are, I would've just done pow(a, 0.5)
-
-	// accuracy of our final result
-	float tolerance = 0.01f;
-
-	// float is required for Babylonian method
-	float calculatedSquare = (float)a;
-
-
-	// Babylonian method for square approximation
-	while ((calculatedSquare - a / calculatedSquare) > tolerance) {
-		calculatedSquare = (calculatedSquare + a / calculatedSquare) / 2;
-	}
-	return calculatedSquare;
+static double calculate_squareroot(int a) {
+	return sqrt(a);
 }
 
 
-static int print_table(int xInput, int yInput) {
-	printf("ALL CALCULATIONS DONE USING THE AREA OF THE RECTANGLE (x * y)\n");
-	for (int y = 1; y <= yInput; y++) {
-		printf("|");
-		for (int x = 0; x <= xInput; x++) {
-
-			if (xInput == x) {
-				printf("|");
-				printf(" cube: %d ", calculate_cube(x * y));
-				printf("square: %d ", calculate_square(x * y));
-				printf("squareroot: %.2f\n", calculate_squareroot(x * y));
-			}
-			if (0 < x && xInput > x) {
-				printf("-");
-			}
-		}
-
+static int print_table(int xInput) {
+	
+	for (int x = 1; x <= xInput; x++) {
+		printf("\n--------------------\n");
+		printf("|%d|%d|%lf|", calculate_cube(x), calculate_square(x), calculate_squareroot(x));
 	}
 
 	return 0;
@@ -67,33 +42,22 @@ static int print_table(int xInput, int yInput) {
 
 int main(void) {
 
-	int x = 0;
-	int y = 0;
+	int userXInput = 0;
 
 	// input
+	// x & y must be between 5 and 25, inclusive
 	printf("Please print the desired x size\nMust be less 5 <= x <= 25\n");
-	if (1 != scanf("%d", &x)) {
+	if (1 != scanf("%d", &userXInput)) {
 		printf("Invalid assignment, must be of type int\n");
 		return INVALID_ASSIGNMENT;
 	}
-	else if (5 > x || 25 < x) {
+	else if (5 > userXInput || 25 < userXInput) {
 		printf("value must be between or equal to 5 and 25\n");
 		return OUT_OF_DOMAIN_ERROR;
 	}
-
-	printf("Please print the desired y size\nMust be less 5 <= y <= 25\n");
-	if (1 != scanf("%d", &y)) {
-		printf("Invalid assignment, must be of type int\n");
-		return INVALID_ASSIGNMENT;
-	}
-	else if (5 > y || 25 < y) {
-		printf("value must be between or equal to 5 and 25\n");
-		return OUT_OF_DOMAIN_ERROR;
-	}
-
 
 	// process & output
-	print_table(x, y);
+	print_table(userXInput);
 
 	return 0;
 }

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Programming\\PROG71990\\PROG1990ASSIGNMENTS\\Assignment 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA49D8D4-04DB-47C3-8192-2854F9B18B68}|q3\\q3.vcxproj|C:\\Programming\\PROG71990\\PROG1990ASSIGNMENTS\\Assignment 2\\q3\\q3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AA49D8D4-04DB-47C3-8192-2854F9B18B68}|q3\\q3.vcxproj|solutionrelative:q3\\q3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{220729FA-5113-4F24-A93F-27401D33A447}|q2\\q2.vcxproj|C:\\Programming\\PROG71990\\PROG1990ASSIGNMENTS\\Assignment 2\\q2\\q2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{220729FA-5113-4F24-A93F-27401D33A447}|q2\\q2.vcxproj|solutionrelative:q2\\q2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA49D8D4-04DB-47C3-8192-2854F9B18B68}|q3\\q3.vcxproj|C:\\Programming\\PROG71990\\PROG1990ASSIGNMENTS\\Assignment 2\\q3\\q3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA49D8D4-04DB-47C3-8192-2854F9B18B68}|q3\\q3.vcxproj|solutionrelative:q3\\q3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C85BA1C-DA00-42C4-BB16-D592FF6539EF}|Assignment 2\\Assignment 2.vcxproj|C:\\Programming\\PROG71990\\PROG1990ASSIGNMENTS\\Assignment 2\\Assignment 2\\q1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -22,8 +22,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 143,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -46,26 +50,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "q3.c",
               "DocumentMoniker": "C:\\Programming\\PROG71990\\PROG1990ASSIGNMENTS\\Assignment 2\\q3\\q3.c",
               "RelativeDocumentMoniker": "q3\\q3.c",
               "ToolTip": "C:\\Programming\\PROG71990\\PROG1990ASSIGNMENTS\\Assignment 2\\q3\\q3.c",
               "RelativeToolTip": "q3\\q3.c",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADIAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-09-22T21:02:09.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "q2.c",
               "DocumentMoniker": "C:\\Programming\\PROG71990\\PROG1990ASSIGNMENTS\\Assignment 2\\q2\\q2.c",
               "RelativeDocumentMoniker": "q2\\q2.c",
               "ToolTip": "C:\\Programming\\PROG71990\\PROG1990ASSIGNMENTS\\Assignment 2\\q2\\q2.c",
               "RelativeToolTip": "q2\\q2.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-09-22T15:54:15.61Z",
               "EditorCaption": ""
@@ -78,10 +82,9 @@
               "RelativeDocumentMoniker": "Assignment 2\\q1.c",
               "ToolTip": "C:\\Programming\\PROG71990\\PROG1990ASSIGNMENTS\\Assignment 2\\Assignment 2\\q1.c",
               "RelativeToolTip": "Assignment 2\\q1.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-09-22T15:24:47.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T15:24:47.927Z"
             }
           ]
         }

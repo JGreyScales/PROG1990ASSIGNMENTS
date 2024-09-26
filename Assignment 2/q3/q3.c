@@ -16,19 +16,22 @@
 #define INVALID_ASSIGNMENT 1
 #define OUT_OF_RANGE_ERROR 2
 
+#define LENGTH_OF_WEEK	   7
+
 static int convert_to_weeks(int days) {
 	int weeks = 0;
 
-	while( days >= 7){
+	// loop until days is less than a week
+	while( days >= LENGTH_OF_WEEK){
 		weeks++;
-		days -= 7;
+		days -= LENGTH_OF_WEEK;
 	}
 
 	return weeks;
 }
 
 static int calulcate_remainder(int days) {
-	return days % 7;
+	return days % LENGTH_OF_WEEK;
 }
 
 int main(void) {

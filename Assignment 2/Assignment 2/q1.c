@@ -23,7 +23,7 @@ int main(void) {
 		return INVALID_ASSIGNMENT;
 	}
 
-	//process
+	//process + output
 
 	for (int i = userInteger; i <= userInteger + 16; i++) {
 		printf("Value: %d\n", i);
