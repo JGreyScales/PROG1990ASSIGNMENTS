@@ -48,20 +48,23 @@ int main(void) {
 		printf("Invalid assignment, ensure is of type int");
 		return INVALID_ASSIGNMENT;
 	}
+	// User enters -1 to break the loop
 	else if (-1 == userInputDays) {
 		looping = 0;
 	}
+	// only positive integers are allowed
 	else if (0 >= userInputDays) {
 		printf("Out of range, please ensure the value is greater than zero");
 		return OUT_OF_RANGE_ERROR;
 	}
 	else {
+		// output
 		printf("%d to weeks is: %d weeks and %d days\n\n",
+
+			// process
 			userInputDays, convert_to_weeks(userInputDays),
 			calulcate_remainder(userInputDays));
 	}
 	return 0;
-
-	// process
 
 }
