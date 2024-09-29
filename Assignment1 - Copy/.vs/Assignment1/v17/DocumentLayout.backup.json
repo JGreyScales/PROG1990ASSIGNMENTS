@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment1 - Copy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1EB3B73-D4EA-4F28-A7E5-72AE94778E0F}|q3\\q3.vcxproj|D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment1 - Copy\\q3\\Util.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1EB3B73-D4EA-4F28-A7E5-72AE94778E0F}|q3\\q3.vcxproj|solutionrelative:q3\\Util.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1EB3B73-D4EA-4F28-A7E5-72AE94778E0F}|q3\\q3.vcxproj|D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment1 - Copy\\q3\\q3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1EB3B73-D4EA-4F28-A7E5-72AE94778E0F}|q3\\q3.vcxproj|solutionrelative:q3\\q3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Util.c",
+              "DocumentMoniker": "D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment1 - Copy\\q3\\Util.c",
+              "RelativeDocumentMoniker": "q3\\Util.c",
+              "ToolTip": "D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment1 - Copy\\q3\\Util.c",
+              "RelativeToolTip": "q3\\Util.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-29T18:49:35.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "q3.c",
+              "DocumentMoniker": "D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment1 - Copy\\q3\\q3.c",
+              "RelativeDocumentMoniker": "q3\\q3.c",
+              "ToolTip": "D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment1 - Copy\\q3\\q3.c",
+              "RelativeToolTip": "q3\\q3.c",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-29T18:48:36.574Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+﻿  UserInput.c
+D:\Programming\PROG1990\ASSIGNMENTS\Assignment1 - Copy\q3\UserInput.c(12,6): error C2371: 'get_float_from_user': redefinition; different basic types
+      D:\Programming\PROG1990\ASSIGNMENTS\Assignment1 - Copy\q3\UserInput.h(6,7):
+      see declaration of 'get_float_from_user'
+  
+D:\Programming\PROG1990\ASSIGNMENTS\Assignment1 - Copy\q3\UserInput.c(14,17): warning C4477: 'scanf' : format string '%i' requires an argument of type 'int *', but variadic argument 1 has type 'float *'
+D:\Programming\PROG1990\ASSIGNMENTS\Assignment1 - Copy\q3\UserInput.c(16,3): warning C4098: 'get_float_from_user': 'void' function returning a value
+D:\Programming\PROG1990\ASSIGNMENTS\Assignment1 - Copy\q3\UserInput.c(18,2): warning C4098: 'get_float_from_user': 'void' function returning a value
+D:\Programming\PROG1990\ASSIGNMENTS\Assignment1 - Copy\q3\UserInput.c(14,11): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
