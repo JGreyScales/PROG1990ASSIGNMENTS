@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "Utils.h"
 
 //Write a function called SmallerOf(double, double) that replaces the contents

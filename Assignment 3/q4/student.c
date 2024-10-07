@@ -28,8 +28,10 @@ void print_student(STUDENT student) {
 	printf("%d - %s, %s", student.studentNumber,
 		student.studentName.firstName, student.studentName.lastName);
 
+	// a string must be defined, but 'empty' strings are only containing 
+	// the terminator
 	if (student.studentName.middleName[0] != '\0') {
-		printf(", %c", student.studentName.middleName[0]);
+		printf(" %c.", student.studentName.middleName[0]);
 	}
 
 	printf("\n");

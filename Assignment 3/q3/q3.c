@@ -12,7 +12,6 @@
 // Jackson G - Prog71990 - Assignment 3 Question 3 - 2024-10-06
 
 #include "Utils.h"
-#include <stdio.h>
 
 int main(void) {
 
