@@ -54,5 +54,33 @@ namespace q1Tests
 			smaller_of(&a, &b);
 			Assert::AreEqual(5892.0, a);
 		}
+
+		TEST_METHOD(aIsFractalValue)
+		{
+			double a = 2.2;
+			double b = 5;
+
+			smaller_of(&a, &b);
+			Assert::AreEqual(2.2, b);
+		}
+
+		TEST_METHOD(bIsFractalValue)
+		{
+			double a = 2;
+			double b = 5.5;
+
+			smaller_of(&a, &b);
+			Assert::AreEqual(2.0, b);
+		}
+
+		TEST_METHOD(bothAreSameValue)
+		{
+			double a = 2.5;
+			double b = 2.5;
+
+			smaller_of(&a, &b);
+			Assert::AreEqual(2.5, a);
+			Assert::AreEqual(2.5, b);
+		}
 	};
 }

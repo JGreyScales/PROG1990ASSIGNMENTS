@@ -6,7 +6,10 @@
 double sum_of_smallest_and_largest(double doubleArray[], int arrLength) {
 	double smallestValue = doubleArray[0];
 	double largestValue = doubleArray[0];
-	for (int i = 0; i < arrLength; i++) {
+
+	// first value is used above
+	// we can start at index 1 because of this
+	for (int i = 1; i < arrLength; i++) {
 		if (doubleArray[i] > largestValue) {
 			largestValue = doubleArray[i];
 		}

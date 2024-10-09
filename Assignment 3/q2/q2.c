@@ -11,7 +11,7 @@
 
 int main(void) {
 
-	double values[] = { 5, 5, 5, 5, 5, 5};
+	double values[] = { 5, 5, 5, 5, 5, 6};
 
 	// takes the total bytes contained in the array
 	// divided by the length of a single item
