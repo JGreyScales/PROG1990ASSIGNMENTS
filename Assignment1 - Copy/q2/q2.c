@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include "UserInput.h"
 
-#define DAYS_IN_YEAR				365
+#define DAYS_IN_YEAR 365
 
 int main(void) {
 	// intro

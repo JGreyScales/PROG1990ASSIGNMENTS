@@ -12,7 +12,6 @@
 
 
 int main(void) {
-
 	double a = -2;
 	double b = 5;
 

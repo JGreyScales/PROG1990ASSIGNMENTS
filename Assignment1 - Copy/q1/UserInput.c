@@ -14,7 +14,7 @@ int get_user_char_input(char* assignmentVar) {
 	// Take user input (the name of the user)
 	if (1 != scanf("%60s", assignmentVar)) {
 		printf("Invalid Assignment, ensure that type is string & length is ");
-		printf("less than % i", MAX_VALID_NAME_LENGTH);
+		printf("less than %i", MAX_VALID_NAME_LENGTH);
 		return INVALID_ASSIGNMENT_ERROR;
 	}
 	return 0;

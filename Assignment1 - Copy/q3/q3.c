@@ -12,8 +12,8 @@
 #define INVALID_ASSIGNMENT_ERROR	1
 
 int main(void) {
-	float Number1;
-	float Number2;
+	float Number1 = 0.0f;
+	float Number2 = 0.0f;
 
 	printf("please input first number:");
 	// returns 0 for success
