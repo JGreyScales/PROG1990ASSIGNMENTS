@@ -1,0 +1,95 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 2 - Refactor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C85BA1C-DA00-42C4-BB16-D592FF6539EF}|Assignment 2\\Assignment 2.vcxproj|D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 2 - Refactor\\Assignment 2\\q1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1C85BA1C-DA00-42C4-BB16-D592FF6539EF}|Assignment 2\\Assignment 2.vcxproj|solutionrelative:Assignment 2\\q1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C85BA1C-DA00-42C4-BB16-D592FF6539EF}|Assignment 2\\Assignment 2.vcxproj|D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 2 - Refactor\\Assignment 2\\UserInput.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1C85BA1C-DA00-42C4-BB16-D592FF6539EF}|Assignment 2\\Assignment 2.vcxproj|solutionrelative:Assignment 2\\UserInput.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C85BA1C-DA00-42C4-BB16-D592FF6539EF}|Assignment 2\\Assignment 2.vcxproj|D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 2 - Refactor\\Assignment 2\\UserInput.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1C85BA1C-DA00-42C4-BB16-D592FF6539EF}|Assignment 2\\Assignment 2.vcxproj|solutionrelative:Assignment 2\\UserInput.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 143,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserInput.c",
+              "DocumentMoniker": "D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 2 - Refactor\\Assignment 2\\UserInput.c",
+              "RelativeDocumentMoniker": "Assignment 2\\UserInput.c",
+              "ToolTip": "D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 2 - Refactor\\Assignment 2\\UserInput.c",
+              "RelativeToolTip": "Assignment 2\\UserInput.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-14T23:35:06.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserInput.h",
+              "DocumentMoniker": "D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 2 - Refactor\\Assignment 2\\UserInput.h",
+              "RelativeDocumentMoniker": "Assignment 2\\UserInput.h",
+              "ToolTip": "D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 2 - Refactor\\Assignment 2\\UserInput.h",
+              "RelativeToolTip": "Assignment 2\\UserInput.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-14T23:34:38.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "q1.c",
+              "DocumentMoniker": "D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 2 - Refactor\\Assignment 2\\q1.c",
+              "RelativeDocumentMoniker": "Assignment 2\\q1.c",
+              "ToolTip": "D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 2 - Refactor\\Assignment 2\\q1.c",
+              "RelativeToolTip": "Assignment 2\\q1.c",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-22T15:24:47.927Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

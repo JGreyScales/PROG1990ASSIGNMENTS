@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1158327B-B275-4224-8512-9A98C21E01F7}|q2\\q2.vcxproj|D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 3\\q2\\q2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1158327B-B275-4224-8512-9A98C21E01F7}|q2\\q2.vcxproj|solutionrelative:q2\\q2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{053C9331-2851-4F5B-B872-0232713F6E01}|q3\\q3.vcxproj|D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 3\\q3\\q3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{053C9331-2851-4F5B-B872-0232713F6E01}|q3\\q3.vcxproj|solutionrelative:q3\\q3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1158327B-B275-4224-8512-9A98C21E01F7}|q2\\q2.vcxproj|D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 3\\q2\\Utils.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1158327B-B275-4224-8512-9A98C21E01F7}|q2\\q2.vcxproj|solutionrelative:q2\\Utils.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153C4C3B-5152-43B7-9859-C5404D451DD0}|q1\\q1.vcxproj|D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 3\\q1\\Utils.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{153C4C3B-5152-43B7-9859-C5404D451DD0}|q1\\q1.vcxproj|solutionrelative:q1\\Utils.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153C4C3B-5152-43B7-9859-C5404D451DD0}|q1\\q1.vcxproj|D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 3\\q1\\q1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{153C4C3B-5152-43B7-9859-C5404D451DD0}|q1\\q1.vcxproj|solutionrelative:q1\\q1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1158327B-B275-4224-8512-9A98C21E01F7}|q2\\q2.vcxproj|D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 3\\q2\\q2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1158327B-B275-4224-8512-9A98C21E01F7}|q2\\q2.vcxproj|solutionrelative:q2\\q2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,6 +58,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "q3.c",
+              "DocumentMoniker": "D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 3\\q3\\q3.c",
+              "RelativeDocumentMoniker": "q3\\q3.c",
+              "ToolTip": "D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 3\\q3\\q3.c",
+              "RelativeToolTip": "q3\\q3.c",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-09T21:46:40.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Utils.c",
+              "DocumentMoniker": "D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 3\\q1\\Utils.c",
+              "RelativeDocumentMoniker": "q1\\Utils.c",
+              "ToolTip": "D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 3\\q1\\Utils.c",
+              "RelativeToolTip": "q1\\Utils.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-09T21:46:18.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "q1.c",
+              "DocumentMoniker": "D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 3\\q1\\q1.c",
+              "RelativeDocumentMoniker": "q1\\q1.c",
+              "ToolTip": "D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 3\\q1\\q1.c",
+              "RelativeToolTip": "q1\\q1.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-09T21:45:43.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Utils.c",
               "DocumentMoniker": "D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 3\\q2\\Utils.c",
@@ -59,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "q2.c",
               "DocumentMoniker": "D:\\Programming\\PROG1990\\ASSIGNMENTS\\Assignment 3\\q2\\q2.c",
               "RelativeDocumentMoniker": "q2\\q2.c",
