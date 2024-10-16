@@ -9,13 +9,20 @@
 //loop.
 
 
-// Jackson G - prog71990 - assignment 2 - question 2 - 2024-09-22
+// Jackson G - prog71990 - assignment 2 refactor - question 2 - 2024-10-16
 
 #include <stdio.h>
 #include <math.h>
 
+#include "userInput.h"
+
 #define INVALID_ASSIGNMENT  1
 #define OUT_OF_DOMAIN_ERROR 2
+
+enum State {
+	invalid_assignment = 1, out_of_domain_error = 2,
+	success = 0
+};
 
 int calculate_cube(int a) {
 	return a * a * a;
@@ -38,23 +45,20 @@ static void print_table(int xInput) {
 }
 
 int main(void) {
+	enum State codeStatus = 0;
 
 	int userXInput = 0;
 
-	// input
-	// x & y must be between 5 and 25, inclusive
-	printf("Please print the desired x size\nMust be less 5 <= x <= 25\n");
-	if (1 != scanf("%d", &userXInput)) {
-		printf("Invalid assignment, must be of type int\n");
-		return INVALID_ASSIGNMENT;
-	}
-	else if (5 > userXInput || 25 < userXInput) {
-		printf("value must be between or equal to 5 and 25\n");
-		return OUT_OF_DOMAIN_ERROR;
+	printf("Please enter an int between 5 and 25 inclusive:\n");
+
+	// returns 0 on success
+	codeStatus = get_int_from_user(&userXInput);
+	if (0 != codeStatus) {
+		return codeStatus;
 	}
 
 	// process & output
 	print_table(userXInput);
 
-	return 0;
+	return codeStatus;
 }

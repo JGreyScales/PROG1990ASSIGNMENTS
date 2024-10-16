@@ -18,5 +18,19 @@
     <ClCompile Include="q3.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="userInput.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="weekMath.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="userInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="weekMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

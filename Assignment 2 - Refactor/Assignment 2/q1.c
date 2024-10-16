@@ -11,8 +11,6 @@
 #include <stdio.h>
 #include "UserInput.h"
 
-#define INVALID_ASSIGNMENT 1
-
 int main(void) {
 	//input
 	int userInteger = 0;

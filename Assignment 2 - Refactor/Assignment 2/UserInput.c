@@ -6,16 +6,19 @@
 #include <stdio.h>
 #include "UserInput.h"
 
-#define MINIMUM_VALID_AGE			0
-#define INVALID_ASSIGNMENT_ERROR	1
+enum state { success = 0, invalid_assignment = 1 };
+
 
 int get_int_from_user(int* assignmentVar) {
+	enum state codeStatus = 0;
 	// Take user input
 	if (1 != scanf("%i", assignmentVar)) {
 		printf("Invalid Assignment, ensure is of type int\n");
 		printf("Value must be greater than zero");
-		return INVALID_ASSIGNMENT_ERROR;
+		codeStatus = 1;
+		return codeStatus;
 	}
 
-	return 0;
+
+	return codeStatus;
 }
