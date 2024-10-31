@@ -23,7 +23,7 @@ size_t read_all_from_file(const char* filename, char* fileContent) {
 	FILE* fpread = fopen(filename, "r");
 	char buffer[MAX_LINE_SIZE] = { 0 };
 	char bufferOld[MAX_LINE_SIZE] = { 0 };
-	char* result = { 0 };
+	char* result = {0};
 	if (NULL == fpread) {
 		fprintf(stderr, "Unable to open %s", filename);
 		exit(EXIT_FAILURE);
@@ -58,6 +58,7 @@ bool write_all_to_file(const char* filename, const char* fileContent) {
 	}
 
 	int bytesWritten = fprintf(fp, "%s", fileContent);
+	fclose(fp);
 	if (0 == bytesWritten) {
 		return false;
 	}

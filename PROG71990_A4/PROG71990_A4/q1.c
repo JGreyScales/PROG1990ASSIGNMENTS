@@ -10,6 +10,8 @@
 // Use standard I / O and the text mode.
 
 // Jackson G - PROG71990 - ASSIGNMENT 4 - QUESTION 1 - 2024-10-30
+// I made this file while distracted, I did a silly thing with the name
+// this is question 1
 
 #include <stdio.h>
 #include <stdlib.h>
