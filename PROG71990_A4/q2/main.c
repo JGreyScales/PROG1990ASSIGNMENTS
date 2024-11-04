@@ -35,58 +35,8 @@
 //if there is no existing datafile, the program will create a new (empty)
 //datafile with no data populated.
 
-
-
-//internal notes so I don't forget stuff
-// no need to mark or review
-
-//util
-//to_lower(seat)
-//swap_two_spaces(arr, index1, index2)
-//get_int_from_user(*int)
-//
-//
-//
-//plane struct
-//12 seats
-//
-//print seats(plane)
-//order seats(first or last, plane)
-//store_to_file(plane)
-//read_from_file
-//
-//
-//
-//seat struct
-//ID
-//Assigned bool
-//Last name
-//First name
-//
-//
-//print seat
-//
-//// allow aborts
-//delete reservation
-//create reservation
-//
-//
-//// try to read from file, hardcoded name
-//(do while loop)
-////menu & user input
-// 
-// each user input should be put into a do while loop
-// 
-//// save file after each loop
-
-
-
-
-
 // Prog71990 - Jackson G - Assignment 4 - 2024-10-31
 // const used to signify the data will not be modified within a func
-
-// originally written in one sitting on 2024-10-31
 
 #include <stdio.h>
 

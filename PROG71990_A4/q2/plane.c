@@ -18,6 +18,7 @@
 enum statusCode { NULLERROR = -1, BOOLNULLERROR = true, SUCCESS = false };
 
 // used to init planes
+// returns NULL on error
 PPLANE create_plane(PSEAT seats[SEAT_AMOUNT]) {
 	PPLANE newPlane = (PPLANE)malloc(PLANE_SIZE);
 	if (NULL == newPlane) {
@@ -33,7 +34,7 @@ PPLANE create_plane(PSEAT seats[SEAT_AMOUNT]) {
 	return newPlane;
 }
 
-// prints a table of open seats
+// prints a table of open 
 void print_seat_table(const PPLANE plane) {
 	if (NULL == plane || NULL == plane->seats) {
 		fprintf(stderr, "Seats or Plane is NULL and cannot be parsed");
@@ -160,7 +161,7 @@ void print_by_order(const PPLANE plane, const unsigned int mode) {
 	return;
 
 }
-
+// returns true on error
 bool store_to_file(const PPLANE plane, const char* filename) {
 	FILE* fp = fopen(filename, "w");
 	if (NULL == fp) {

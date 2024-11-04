@@ -43,7 +43,11 @@ static void print_ordered(PPLANE plane) {
 	// buffer = mode = unsigned int
 	fprintf(stdout, "please select a choice from below\n 1) sort by first");
 	fprintf(stdout, " name\n2) sort by last name\n 3) for abort\n\n");
-	get_int_from_user(&buffer, 1, 3);
+	if (get_int_from_user(&buffer, 1, 3)) {
+		fprintf(stdout, "Unable to get int from user");
+		fprintf(stdout, "Defaulting to sort by first name");
+		buffer = 1;
+	}
 	print_by_order(plane, buffer);
 }
 
@@ -90,11 +94,13 @@ static void create_seat_reservation(PPLANE plane) {
 static void delete_seat_reservation(PPLANE plane) {
 	int buffer = 0;
 	fprintf(stdout, "\n\nPlease type the ID you wish to delete\n");
-	get_int_from_user(&buffer, 0, 11);
+	if (get_int_from_user(&buffer, 0, 11)) {
+		fprintf(stdout, "Unable to read int from user, aborting");
+		return;
+	}
 	remove_data(plane->seats[buffer]);
 	return;
 }
-
 
 bool handle_menu_input(const char choosen, PPLANE plane) {
 	switch (choosen)
@@ -156,6 +162,7 @@ void swap_two_spaces(PSEAT seats[12], unsigned int i1, unsigned int i2) {
 }
 
 // retrieves an int from the user
+// returns true on error
 bool get_int_from_user(int* buffer, int lowerBound, int upperBound) {
 	if (1 != scanf("%i", buffer)) {
 		printf("Invalid Assignment, ensure is of type int\n");
@@ -172,6 +179,7 @@ bool get_int_from_user(int* buffer, int lowerBound, int upperBound) {
 }
 
 // retrieves a char array from the user
+// returns true on error
 bool get_user_char_array_input(char* buffer) {
 	if (1 != scanf("%60s", buffer)) {
 		printf("Invalid Assignment, ensure that type is string & length is ");

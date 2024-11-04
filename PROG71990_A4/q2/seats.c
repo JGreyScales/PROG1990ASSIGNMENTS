@@ -16,6 +16,7 @@ enum statusCode {NULLERROR = -1, BOOLNULLERROR, FAILURE = true, SUCCESS = false}
 enum assignedStatus { UNASSIGNED = 0, ASSIGNED = 1 };
 
 // used to init seats
+// returns null on error
 PSEAT create_seat(const int id) {
 	PSEAT newSeat = (PSEAT)malloc(SEAT_SIZE);
 	if (NULL == newSeat) {
@@ -31,6 +32,7 @@ PSEAT create_seat(const int id) {
 
 }
 // prints single seat data
+// returns false on error
 bool print_seat(const PSEAT seat) {
 	if (NULL == seat) {
 		fprintf(stderr, "Seat is null, unable to print\n");
@@ -42,6 +44,7 @@ bool print_seat(const PSEAT seat) {
 }
 
 // purges customer data, allowing someone else to book the seat
+// returns false on error
 bool remove_data(PSEAT seat) {
 	if (NULL == seat) {
 		fprintf(stderr, "Seat is null, unable to remove data\n");
@@ -66,6 +69,7 @@ bool remove_data(PSEAT seat) {
 }
 
 // adds customer data, allowing someone to reserve the seat
+// returns false on error
 bool create_data(PSEAT seat, const char setFirstName[MAX_NAME_SIZE], 
 				const char setLastName[MAX_NAME_SIZE], bool assigned) {
 	if (NULL == seat) {
