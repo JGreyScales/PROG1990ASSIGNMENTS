@@ -1,0 +1,5 @@
+﻿  student.c
+C:\Programming\PROG71990\PROG1990ASSIGNMENTS\Assignment 3 - Refactor\q4\student.c(32,16): warning C4133: '=': incompatible types - from 'PSTUDENT' to 'student *'
+C:\Programming\PROG71990\PROG1990ASSIGNMENTS\Assignment 3 - Refactor\q4\student.c(55,8): warning C4133: '=': incompatible types - from 'student *' to 'PSTUDENT'
+C:\Programming\PROG71990\PROG1990ASSIGNMENTS\Assignment 3 - Refactor\q4\student.c(79,11): warning C4133: '=': incompatible types - from 'student *' to 'PSTUDENT'
+  q4.vcxproj -> C:\Programming\PROG71990\PROG1990ASSIGNMENTS\Assignment 3 - Refactor\x64\Debug\q4.exe
