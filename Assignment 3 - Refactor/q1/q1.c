@@ -11,6 +11,13 @@
 // Jackson G - Prog71990 - Assignment 3 Question 1 - 2024-10-06
 
 
+//Question 1: SmallerOf() function and tests
+//o Specifications : 3.00 / 4.00 (The program works and produces the correct 
+// results and displays them correctly and also meets most of the other 
+// specifications or the following issues were noted : )
+//—Test Case(s) are not verifying the proper outcome, possibly due to 
+// misunderstood specification
+
 int main(void) {
 	double a = -2;
 	double b = 5;

@@ -17,7 +17,9 @@ namespace q1Tests
 			double b = 5;
 
 			smaller_of(&a, &b);
+			// this ensures negative values work
 			Assert::AreEqual(-2.0, b);
+			Assert::AreEqual(-2.0, a);
 		}
 
 		TEST_METHOD(bIsNegativeValue)
@@ -26,7 +28,9 @@ namespace q1Tests
 			double b = -5;
 
 			smaller_of(&a, &b);
+			// this ensures negative values work
 			Assert::AreEqual(-5.0, b);
+			Assert::AreEqual(-5.0, a);
 		}
 		TEST_METHOD(bothAreNegativeValue)
 		{
@@ -34,7 +38,9 @@ namespace q1Tests
 			double b = -5;
 
 			smaller_of(&a, &b);
+			// this ensures negative values work
 			Assert::AreEqual(-5.0, a);
+			Assert::AreEqual(-5.0, b);
 		}
 
 		TEST_METHOD(bothArePositiveAisCorrect)
@@ -43,7 +49,9 @@ namespace q1Tests
 			double b = 5892;
 
 			smaller_of(&a, &b);
+			// this ensures positive values work
 			Assert::AreEqual(332.0, b);
+			Assert::AreEqual(332.0, a);
 		}
 
 		TEST_METHOD(bothArePositiveBisCorrect)
@@ -52,7 +60,9 @@ namespace q1Tests
 			double b = 5892;
 
 			smaller_of(&a, &b);
+			// this ensures positive values work
 			Assert::AreEqual(5892.0, a);
+			Assert::AreEqual(5892.0, b);
 		}
 
 		TEST_METHOD(aIsFractalValue)
@@ -61,7 +71,9 @@ namespace q1Tests
 			double b = 5;
 
 			smaller_of(&a, &b);
+			// this ensures decimal numbers work
 			Assert::AreEqual(2.2, b);
+			Assert::AreEqual(2.2, a);
 		}
 
 		TEST_METHOD(bIsFractalValue)
@@ -70,7 +82,9 @@ namespace q1Tests
 			double b = 5.5;
 
 			smaller_of(&a, &b);
+			// this ensures decimal numbers work
 			Assert::AreEqual(2.0, b);
+			Assert::AreEqual(2.0, a);
 		}
 
 		TEST_METHOD(bothAreSameValue)
@@ -79,6 +93,7 @@ namespace q1Tests
 			double b = 2.5;
 
 			smaller_of(&a, &b);
+			// this ensures that data was not damaged in the check
 			Assert::AreEqual(2.5, a);
 			Assert::AreEqual(2.5, b);
 		}
