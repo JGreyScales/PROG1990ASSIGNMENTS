@@ -1,0 +1,8 @@
+﻿  main.c
+D:\Programming\PROG1990\ASSIGNMENTS\Assignment 5\Assignment 5\Assignment 5\main.c(55,33): warning C4047: 'function': 'char *' differs in levels of indirection from 'char (*)[60]'
+D:\Programming\PROG1990\ASSIGNMENTS\Assignment 5\Assignment 5\Assignment 5\main.c(55,33): warning C4024: 'get_user_char_array_input': different types for formal and actual parameter 1
+  stack.c
+  Generating Code...
+  Assignment 5.vcxproj -> D:\Programming\PROG1990\ASSIGNMENTS\Assignment 5\Assignment 5\x64\Debug\Assignment 5.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

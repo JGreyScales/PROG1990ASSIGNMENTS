@@ -13,7 +13,7 @@
 #include "seats.h"
 #include "plane.h"
 
-enum statusCode { INPUTERROR = true, SUCCESS = false };
+enum statusCode { INPUTERROR = SUCCESS, SUCCESS = false };
 
 
 void number_of_empty_seats(PPLANE plane) {
@@ -86,8 +86,8 @@ static void create_seat_reservation(PPLANE plane) {
 		return;
 	}
 
-	// true to mark as reserved
-	create_data(plane->seats[buffer], firstName, lastName, true);
+	// SUCCESS to mark as reserved
+	create_data(plane->seats[buffer], firstName, lastName, SUCCESS);
 	return;
 }
 
@@ -127,7 +127,7 @@ bool handle_menu_input(const char choosen, PPLANE plane) {
 		fprintf(stderr, "Invalid selection\n");
 		break;
 	}
-	return true;
+	return SUCCESS;
 }
 
 void print_menu(void) {
@@ -162,7 +162,7 @@ void swap_two_spaces(PSEAT seats[12], unsigned int i1, unsigned int i2) {
 }
 
 // retrieves an int from the user
-// returns true on error
+// returns SUCCESS on error
 bool get_int_from_user(int* buffer, int lowerBound, int upperBound) {
 	if (1 != scanf("%i", buffer)) {
 		printf("Invalid Assignment, ensure is of type int\n");
@@ -179,7 +179,7 @@ bool get_int_from_user(int* buffer, int lowerBound, int upperBound) {
 }
 
 // retrieves a char array from the user
-// returns true on error
+// returns SUCCESS on error
 bool get_user_char_array_input(char* buffer) {
 	if (1 != scanf("%60s", buffer)) {
 		printf("Invalid Assignment, ensure that type is string & length is ");
@@ -221,10 +221,10 @@ char get_user_char_input(void) {
 }
 
 
-// returns true if second value is smaller
+// returns SUCCESS if second value is smaller
 bool right_is_smaller_of(const int i1, const int i2) {
 	if (i2 < i1) {
-		return true;
+		return SUCCESS;
 	}
 	return false;
 }
